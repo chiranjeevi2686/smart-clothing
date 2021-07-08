@@ -3,14 +3,14 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const config = {
-    apiKey: "AIzaSyBqL41EIKdNm4AKhYmyW5jIH9Bv5CZWgj4",
-    authDomain: "smart-db-ff490.firebaseapp.com",
-    databaseURL: "https://smart-db-ff490.firebaseio.com",
-    projectId: "smart-db-ff490",
-    storageBucket: "smart-db-ff490.appspot.com",
-    messagingSenderId: "869263916832",
-    appId: "1:869263916832:web:7eed16f55f1b40c5536145",
-    measurementId: "G-L31591BHVM"
+  apiKey: "AIzaSyBqL41EIKdNm4AKhYmyW5jIH9Bv5CZWgj4",
+  authDomain: "smart-db-ff490.firebaseapp.com",
+  databaseURL: "https://smart-db-ff490.firebaseio.com",
+  projectId: "smart-db-ff490",
+  storageBucket: "smart-db-ff490.appspot.com",
+  messagingSenderId: "869263916832",
+  appId: "1:869263916832:web:7eed16f55f1b40c5536145",
+  measurementId: "G-L31591BHVM"
 };
 
 firebase.initializeApp(config);
@@ -48,6 +48,22 @@ export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => 
     batch.set(newDocRef, obj);
   });
   return await batch.commit();
+};
+
+export const convertCollectionsSnapshotToMap = (collections) => {
+  const transformedCollection = collections.docs.map(doc => {
+    const { title, items } = doc.data();
+    return {
+      routeName: encodeURI(title.toLowerCase()),
+      id: doc.id,
+      title,
+      items
+    }
+  })
+  return transformedCollection.reduce((accumulator, collection) => {
+    accumulator[collection.title.toLowerCase()] = collection;
+    return accumulator;
+  }, {})
 };
 
 export const auth = firebase.auth();
