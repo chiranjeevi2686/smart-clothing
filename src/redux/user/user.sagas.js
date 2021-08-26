@@ -4,9 +4,11 @@ import UserActionTypes from './user.types';
 
 import {
   signInSuccess,
+  signUpSuccess,
   signInFailure,
   signOutSuccess,
-  signOutFailure
+  signOutFailure,
+  signUpFailure
 } from './user.actions';
 
 import {
@@ -47,7 +49,16 @@ export function* signInWithEmail({ payload: { email, password } }) {
     yield put(signInFailure(error));
   }
 }
+export function* signUp({ payload: { email, password, displayName } }){
 
+  try{
+    const {user} = yield auth.createUserWithEmailAndPassword(email, password);
+    yield put(signUpSuccess({user, additionalData: {displayName}}));
+  }catch(error){
+    yield put(signUpFailure(error));
+  }
+
+}
 export function* isUserAuthenticated() {
   try {
     const userAuth = yield getCurrentUser();
@@ -75,6 +86,10 @@ export function* onEmailSignInStart() {
   yield takeLatest(UserActionTypes.EMAIL_SIGN_IN_START, signInWithEmail);
 }
 
+export function* onSignUpStart() {
+  yield takeLatest(UserActionTypes.SIGN_UP_START, signUp);
+}
+
 export function* onCheckUserSession() {
   yield takeLatest(UserActionTypes.CHECK_USER_SESSION, isUserAuthenticated);
 }
@@ -88,6 +103,7 @@ export function* userSagas() {
     call(onGoogleSignInStart),
     call(onEmailSignInStart),
     call(onCheckUserSession),
-    call(onSignOutStart)
+    call(onSignOutStart),
+    call(onSignUpStart)
   ]);
 }
