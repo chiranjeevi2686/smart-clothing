@@ -20,7 +20,7 @@ const ShopPage = ({ match }) => {
    useEffect(() => {
       dispatch(fetchCollectionsStart());
    }, [dispatch])
-
+   
    return (
       <div>
          <Route
