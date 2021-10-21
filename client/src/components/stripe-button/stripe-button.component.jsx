@@ -1,8 +1,11 @@
 import React from 'react';
 import StripeCheckout from 'react-stripe-checkout';
 import axios from 'axios';
+import { useDispatch } from 'react-redux';
+import { paymentSuccess } from '../../redux/user/user.actions';
 
 const StripeCheckoutButton = ({ price }) => {
+    const dispatch = useDispatch();
     const priceForStripe = price * 100;
     const publishableKey = 'pk_test_51HgOedKNue5JG4z7Tn3Qujei7mQ0IVokHUYKmFWBXoumql9tYoOMaZCj4f380QKArev81jMzgKHW2OQGZwwrTq4R00Gp1iVXM3';
     const onToken = token => {
@@ -14,6 +17,7 @@ const StripeCheckoutButton = ({ price }) => {
                 token: token
             }
         }).then(response=>{
+            dispatch(paymentSuccess());
             alert('Payment successful')
         }).catch(error=>{
             console.log('Payment error:',JSON.parse(error));

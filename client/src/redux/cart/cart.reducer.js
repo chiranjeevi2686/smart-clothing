@@ -33,6 +33,11 @@ const CartReducer = (state=INITIAL_STATE,action)=>{
                 ...state,
                 cartItems:[]
             }
+        case CartActionTypes.PAYMENT_SUCCESS:
+            return{
+                ...state,
+                cartItems:[]
+            }
             default:
                 return state;
     }
