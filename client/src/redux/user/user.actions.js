@@ -52,3 +52,7 @@ export const signUpFailure = error => ({
 export const paymentSuccess = () => ({
   type: UserActionTypes.PAYMENT_SUCCESS
 });
+
+export const paymentFailure = () => ({
+  type: UserActionTypes.PAYMENT_FAILURE
+});

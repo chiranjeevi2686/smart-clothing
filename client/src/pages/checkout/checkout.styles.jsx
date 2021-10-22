@@ -28,3 +28,8 @@ export const TotalContainer = styled.div`
     margin-left: auto;
     font-size: 36px;
 `;
+export const AlertContainer = styled.div`
+  width: 100%;
+  padding: 100px 15px; 
+  text-align: center;
+`;

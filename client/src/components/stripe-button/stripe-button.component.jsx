@@ -2,7 +2,7 @@ import React from 'react';
 import StripeCheckout from 'react-stripe-checkout';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
-import { paymentSuccess } from '../../redux/user/user.actions';
+import { paymentSuccess, paymentFailure } from '../../redux/user/user.actions';
 
 const StripeCheckoutButton = ({ price }) => {
     const dispatch = useDispatch();
@@ -18,10 +18,9 @@ const StripeCheckoutButton = ({ price }) => {
             }
         }).then(response=>{
             dispatch(paymentSuccess());
-            alert('Payment successful')
         }).catch(error=>{
+            dispatch(paymentFailure());
             console.log('Payment error:',JSON.parse(error));
-            alert('Unfortunately payment was not successful, retry with correct payment details')
         })
     }
     return (
