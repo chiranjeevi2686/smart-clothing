@@ -11,7 +11,9 @@ const CartIcon = () => {
 
     return (
         <CartIconContainer onClick={() => dispatch(toggleCartHidden())}>
-            <ShoppingIcon />
+            <ShoppingIcon
+                data-test-id='shopping-icon'
+            />
             <ItemCountContainer>{itemCount}</ItemCountContainer>
         </CartIconContainer>
     )
