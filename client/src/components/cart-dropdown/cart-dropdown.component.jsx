@@ -12,6 +12,7 @@ const CartDropdown = () => {
     const cartItems = useSelector(selectCartItems)
     const dispatch = useDispatch();
     const history = useHistory();
+
     return (
         <CartDropdownContainer>
             <CartItemsContainer >

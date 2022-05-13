@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartDropdown component should render CartDropdown 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdfBwQ ewDQCU"
+  >
+    <div
+      class="sc-gsTCUz fmqGKC"
+    >
+      <div
+        class="sc-eCssSg iRTsiw"
+      >
+        <img
+          alt="cartImage"
+          class="sc-jSgupP cAHwYm"
+          src="https://i.ibb.co/mJS6vz0/blue-jean-jacket.png"
+        />
+        <div
+          class="sc-gKsewC iLwA-Dr"
+        >
+          <span
+            class="sc-iBPRYJ ceImlv"
+          >
+            Blue Jean Jacket
+          </span>
+          <span
+            class="sc-fubCfw hjMHWY"
+          >
+            1 * $90
+          </span>
+        </div>
+      </div>
+    </div>
+    <button
+      class="sc-hKgILt grWFHd"
+      data-test-id="checkout-button"
+    >
+      GO TO CHECKOUT
+    </button>
+  </div>
+</DocumentFragment>
+`;
