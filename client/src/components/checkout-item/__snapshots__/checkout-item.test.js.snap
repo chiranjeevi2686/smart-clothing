@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkout item component should render checkout item 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdfBwQ ivfSWR"
+  >
+    <div
+      class="sc-gsTCUz kHrmTY"
+    >
+      <img
+        alt="item"
+        src="www.test.com"
+      />
+    </div>
+    <span
+      class="sc-dlfnbm cXbNzo"
+    >
+      test
+    </span>
+    <span
+      class="sc-dlfnbm sc-hKgILt cXbNzo kEVSkE"
+    >
+      <div
+        class="arrow"
+        data-test-id="remove-arrow"
+      >
+        ❮
+      </div>
+      <span
+        class="value"
+      >
+        1
+      </span>
+      <div
+        class="arrow"
+        data-test-id="add-arrow"
+      >
+        ❯
+      </div>
+    </span>
+    <span
+      class="sc-dlfnbm cXbNzo"
+    >
+      23
+    </span>
+    <div
+      class="sc-eCssSg dJkOIt"
+      data-test-id="remove-button"
+    >
+      ✕
+    </div>
+  </div>
+</DocumentFragment>
+`;

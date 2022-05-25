@@ -23,7 +23,9 @@ const CollectionItem = ({ item }) => {
                 <NameContainer>{name}</NameContainer>
                 <PriceContainer>${price}</PriceContainer>
             </CollectionFooterContainer>
-            <AddButton onClick={() => dispatch(addItem(item))} inverted >
+            <AddButton
+                data-test-id='add-cart-button'
+                onClick={() => dispatch(addItem(item))} inverted >
                 ADD TO CART
             </AddButton>
         </CollectionItemContainer>

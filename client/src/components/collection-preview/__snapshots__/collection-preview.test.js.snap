@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collection preview component should render collection preview 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-iBPRYJ hYYqFQ"
+  >
+    <h1
+      class="sc-fubCfw gLfjKe"
+    >
+      TESTTITLE
+    </h1>
+    <div
+      class="sc-pFZIQ dKPBra"
+    >
+      <div
+        class="sc-gsTCUz llOAWQ"
+      >
+        <div
+          class="sc-hKgILt ifgiZx"
+        />
+        <div
+          class="sc-eCssSg jFCvIw"
+        >
+          <span
+            class="sc-jSgupP jbqeKv"
+          >
+            test
+          </span>
+          <span
+            class="sc-gKsewC kIfwPX"
+          >
+            $23
+          </span>
+        </div>
+        <button
+          class="sc-bdfBwQ fByGxQ sc-dlfnbm iPOXsS"
+          data-test-id="add-cart-button"
+        >
+          ADD TO CART
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

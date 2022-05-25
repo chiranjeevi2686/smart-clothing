@@ -15,12 +15,22 @@ const CheckoutItem = ({ cartItem }) => {
             </ImageContainer>
             <TextContainer>{name}</TextContainer>
             <QuantityContainer>
-                <div className='arrow' onClick={() => dipatch(removeItem(cartItem))}>&#10094;</div>
+                <div
+                    data-test-id='remove-arrow'
+                    className='arrow'
+                    onClick={() => dipatch(removeItem(cartItem))}>&#10094;
+                </div>
                 <span className='value'>{quantity}</span>
-                <div className='arrow' onClick={() => dipatch(addItem(cartItem))}>&#10095;</div>
+                <div
+                    data-test-id='add-arrow'
+                    className='arrow'
+                    onClick={() => dipatch(addItem(cartItem))}>&#10095;
+                </div>
             </QuantityContainer>
             <TextContainer>{price}</TextContainer>
-            <RemoveButtonContainer onClick={() => dipatch(clearItemFromCart(cartItem))}>
+            <RemoveButtonContainer
+                data-test-id='remove-button'
+                onClick={() => dipatch(clearItemFromCart(cartItem))}>
                 &#10005;</RemoveButtonContainer>
         </CheckoutItemContainer>
     )

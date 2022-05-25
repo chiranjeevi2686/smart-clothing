@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collection overview component should render collection overview 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdfBwQ hBPBCu"
+  >
+    <div
+      class="sc-fubCfw kNQsBt"
+    >
+      <h1
+        class="sc-pFZIQ bWsjRN"
+      >
+        TEST-TITLE
+      </h1>
+      <div
+        class="sc-jrAGrp kXpyIe"
+      >
+        <div
+          class="sc-dlfnbm kgpEqj"
+        >
+          <div
+            class="sc-eCssSg kLJAJi"
+          />
+          <div
+            class="sc-jSgupP hfwbgV"
+          >
+            <span
+              class="sc-gKsewC gzFpBu"
+            >
+              test-name
+            </span>
+            <span
+              class="sc-iBPRYJ kwiMLn"
+            >
+              $10
+            </span>
+          </div>
+          <button
+            class="sc-gsTCUz cvicRc sc-hKgILt cAydbA"
+            data-test-id="add-cart-button"
+          >
+            ADD TO CART
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

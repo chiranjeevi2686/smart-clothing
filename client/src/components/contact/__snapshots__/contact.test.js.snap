@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collection contact component should render contact details 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdfBwQ eNxuqQ"
+  >
+    <h2
+      class="sc-gsTCUz epPJTi"
+    >
+      Get in touch.
+    </h2>
+    <form>
+      <div
+        class="sc-dlfnbm tXewj"
+      >
+        <input
+          class="sc-hKgILt puxKR"
+          data-test-id="display-name"
+          name="displayName"
+          required=""
+          type="text"
+          value=""
+        />
+        <label
+          class="sc-eCssSg iCNWHH"
+        >
+          Display Name
+        </label>
+      </div>
+      <div
+        class="sc-dlfnbm tXewj"
+      >
+        <input
+          class="sc-hKgILt puxKR"
+          name="email"
+          required=""
+          type="text"
+          value=""
+        />
+        <label
+          class="sc-eCssSg iCNWHH"
+        >
+          email
+        </label>
+      </div>
+      <div
+        class="sc-dlfnbm tXewj"
+      >
+        <input
+          class="sc-hKgILt puxKR"
+          name="message"
+          required=""
+          type="text"
+          value=""
+        />
+        <label
+          class="sc-eCssSg iCNWHH"
+        >
+          message
+        </label>
+      </div>
+      <button
+        class="sc-jSgupP wXXsH"
+        type="submit"
+      >
+        SEND
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

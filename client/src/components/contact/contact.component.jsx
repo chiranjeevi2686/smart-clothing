@@ -29,6 +29,7 @@ const Contact = ()=>{
             <FormInput
             type='text'
             name='displayName'
+            data-test-id='display-name'
             value={displayName}
             onChange={handleChange}
             label='Display Name'
