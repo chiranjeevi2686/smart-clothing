@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignIn component should render SignIn 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdfBwQ bfYTqA"
+  >
+    <h2
+      class="sc-gsTCUz gnBPzW"
+    >
+      I already have an account
+    </h2>
+    <span>
+      Sign in with your email and password
+    </span>
+    <form>
+      <div
+        class="sc-hKgILt cxolEt"
+      >
+        <input
+          class="sc-eCssSg gHGmMu"
+          data-test-id="email-input"
+          name="email"
+          required=""
+          type="email"
+          value=""
+        />
+        <label
+          class="sc-jSgupP hRBOdq"
+        >
+          email
+        </label>
+      </div>
+      <div
+        class="sc-hKgILt cxolEt"
+      >
+        <input
+          class="sc-eCssSg gHGmMu"
+          data-test-id="password-input"
+          name="password"
+          required=""
+          type="password"
+          value=""
+        />
+        <label
+          class="sc-jSgupP hRBOdq"
+        >
+          password
+        </label>
+      </div>
+      <div
+        class="sc-dlfnbm UDbKF"
+      >
+        <button
+          class="sc-gKsewC epXRlq"
+          data-test-id="sign-in-button"
+          type="submit"
+        >
+          Sign in
+        </button>
+        <button
+          class="sc-gKsewC dgAxfj"
+          data-test-id="sign-in-button-google"
+          type="button"
+        >
+          Sign in with google
+        </button>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;

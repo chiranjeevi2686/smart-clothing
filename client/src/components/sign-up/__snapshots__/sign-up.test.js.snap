@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp component should render SignUp 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdfBwQ eNxuqQ"
+  >
+    <h2
+      class="sc-gsTCUz gnBPzW"
+    >
+      I do not have an account
+    </h2>
+    <span>
+      Sign up with email and password
+    </span>
+    <form>
+      <div
+        class="sc-dlfnbm tXewj"
+      >
+        <input
+          class="sc-hKgILt puxKR"
+          data-test-id="display-name"
+          name="displayName"
+          required=""
+          type="text"
+          value=""
+        />
+        <label
+          class="sc-eCssSg iCNWHH"
+        >
+          Display Name
+        </label>
+      </div>
+      <div
+        class="sc-dlfnbm tXewj"
+      >
+        <input
+          class="sc-hKgILt puxKR"
+          data-test-id="sign-up-email"
+          name="email"
+          required=""
+          type="email"
+          value=""
+        />
+        <label
+          class="sc-eCssSg iCNWHH"
+        >
+          Email
+        </label>
+      </div>
+      <div
+        class="sc-dlfnbm tXewj"
+      >
+        <input
+          class="sc-hKgILt puxKR"
+          data-test-id="sign-up-pwd"
+          name="password"
+          required=""
+          type="password"
+          value=""
+        />
+        <label
+          class="sc-eCssSg iCNWHH"
+        >
+          Password
+        </label>
+      </div>
+      <div
+        class="sc-dlfnbm tXewj"
+      >
+        <input
+          class="sc-hKgILt puxKR"
+          data-test-id="sign-up-cnf-pwd"
+          name="confirmPassword"
+          required=""
+          type="password"
+          value=""
+        />
+        <label
+          class="sc-eCssSg iCNWHH"
+        >
+          Confirm Password
+        </label>
+      </div>
+      <button
+        class="sc-jSgupP wXXsH"
+        data-test-id="sign-up-btn"
+        type="submit"
+      >
+        SIGN UP
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

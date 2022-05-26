@@ -1,5 +1,5 @@
 import React from "react";
-import { render, fireEvent } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import Directory from './directory.component';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
@@ -23,9 +23,5 @@ describe('Directory component', () => {
             <Directory />
         </Provider>)
         expect(asFragment()).toMatchSnapshot();
-        // const displayNameInput = getByTestId('display-name');
-        // fireEvent.change(displayNameInput, {target: {value:'testDisplay'}})
-        // expect(displayNameInput.value).toEqual('testDisplay')
-
     })
 })

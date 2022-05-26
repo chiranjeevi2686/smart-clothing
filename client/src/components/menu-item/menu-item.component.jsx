@@ -12,6 +12,7 @@ const MenuItem = ({ title, imageUrl, size, linkUrl }) => {
     const history = useHistory();
     return (
         <MenuItemContainer
+            data-test-id='shop-menu-item'
             size={size}
             onClick={() => history.push(`${linkUrl}`)}>
             <BackgroundImageContainer

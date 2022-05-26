@@ -7,6 +7,7 @@ exports[`Directory component should render directory 1`] = `
   >
     <div
       class="sc-bdfBwQ cueKct"
+      data-test-id="shop-menu-item"
     >
       <div
         class="sc-gsTCUz CKdSB background-image"

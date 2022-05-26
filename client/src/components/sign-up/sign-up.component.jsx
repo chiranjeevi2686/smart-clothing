@@ -41,6 +41,7 @@ const SignUp = () => {
                 <FormInput
                     type='text'
                     name='displayName'
+                    data-test-id='display-name'
                     value={displayName}
                     onChange={handleChange}
                     label='Display Name'
@@ -49,6 +50,7 @@ const SignUp = () => {
                 <FormInput
                     type='email'
                     name='email'
+                    data-test-id='sign-up-email'
                     value={email}
                     onChange={handleChange}
                     label='Email'
@@ -57,6 +59,7 @@ const SignUp = () => {
                 <FormInput
                     type='password'
                     name='password'
+                    data-test-id='sign-up-pwd'
                     value={password}
                     onChange={handleChange}
                     label='Password'
@@ -65,12 +68,16 @@ const SignUp = () => {
                 <FormInput
                     type='password'
                     name='confirmPassword'
+                    data-test-id='sign-up-cnf-pwd'
                     value={confirmPassword}
                     onChange={handleChange}
                     label='Confirm Password'
                     required
                 />
-                <CustomButton type='submit'>SIGN UP</CustomButton>
+                <CustomButton
+                    type='submit'
+                    data-test-id='sign-up-btn'
+                >SIGN UP</CustomButton>
 
             </form>
 

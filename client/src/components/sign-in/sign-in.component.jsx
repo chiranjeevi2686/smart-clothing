@@ -11,11 +11,11 @@ import {
 const SignIn = () => {
 
     const [userCredentials, setUserCredentials] = useState({
-        email:'',
+        email: '',
         password: ''
     });
     const dispatch = useDispatch();
-    const {email, password} = userCredentials;
+    const { email, password } = userCredentials;
     const handleSubmit = async event => {
         event.preventDefault()
         dispatch(emailSignInStart({ email, password }))
@@ -23,7 +23,7 @@ const SignIn = () => {
 
     const handleChange = event => {
         const { value, name } = event.target;
-        setUserCredentials({...userCredentials, [name]:value});
+        setUserCredentials({ ...userCredentials, [name]: value });
     }
 
     return (
@@ -33,8 +33,9 @@ const SignIn = () => {
 
             <form onSubmit={handleSubmit}>
                 <FormInput
-                    name="email"
-                    type="email"
+                    name='email'
+                    type='email'
+                    data-test-id='email-input'
                     value={email}
                     handleChange={handleChange}
                     label='email'
@@ -43,16 +44,23 @@ const SignIn = () => {
                 <FormInput
                     name="password"
                     type="password"
+                    data-test-id='password-input'
                     value={password}
                     handleChange={handleChange}
                     label='password'
                     required
                 />
                 <ButtonContainer>
-                    <CustomButton type="submit">
+                    <CustomButton
+                        type='submit'
+                        data-test-id='sign-in-button'
+                    >
                         Sign in
                     </CustomButton>
-                    <CustomButton type="button" onClick={() => dispatch(googleSignInStart())} isGoogleSignIn>
+                    <CustomButton
+                        type="button"
+                        data-test-id='sign-in-button-google'
+                        onClick={() => dispatch(googleSignInStart())} isGoogleSignIn>
                         Sign in with google
                     </CustomButton>
                 </ButtonContainer>
