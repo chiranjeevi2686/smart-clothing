@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CollectionPage component should render CollectionPage 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdfBwQ cJFONO"
+  >
+    <h2
+      class="sc-gsTCUz fBJmCA"
+    >
+      Hats
+    </h2>
+    <div
+      class="sc-dlfnbm ejATpW"
+    >
+      <div
+        class="sc-eCssSg bmGrxy"
+      >
+        <div
+          class="sc-gKsewC cTsrRC"
+        />
+        <div
+          class="sc-iBPRYJ imjZgE"
+        >
+          <span
+            class="sc-fubCfw bUcFZH"
+          >
+            Brown Brim
+          </span>
+          <span
+            class="sc-pFZIQ cXvWcx"
+          >
+            $25
+          </span>
+        </div>
+        <button
+          class="sc-hKgILt hXUWBl sc-jSgupP cwSpKa"
+          data-test-id="add-cart-button"
+        >
+          ADD TO CART
+        </button>
+      </div>
+      <div
+        class="sc-eCssSg bmGrxy"
+      >
+        <div
+          class="sc-gKsewC heyEiZ"
+        />
+        <div
+          class="sc-iBPRYJ imjZgE"
+        >
+          <span
+            class="sc-fubCfw bUcFZH"
+          >
+            Blue Beanie
+          </span>
+          <span
+            class="sc-pFZIQ cXvWcx"
+          >
+            $18
+          </span>
+        </div>
+        <button
+          class="sc-hKgILt hXUWBl sc-jSgupP cwSpKa"
+          data-test-id="add-cart-button"
+        >
+          ADD TO CART
+        </button>
+      </div>
+      <div
+        class="sc-eCssSg bmGrxy"
+      >
+        <div
+          class="sc-gKsewC kyFpsC"
+        />
+        <div
+          class="sc-iBPRYJ imjZgE"
+        >
+          <span
+            class="sc-fubCfw bUcFZH"
+          >
+            Brown Cowboy
+          </span>
+          <span
+            class="sc-pFZIQ cXvWcx"
+          >
+            $35
+          </span>
+        </div>
+        <button
+          class="sc-hKgILt hXUWBl sc-jSgupP cwSpKa"
+          data-test-id="add-cart-button"
+        >
+          ADD TO CART
+        </button>
+      </div>
+      <div
+        class="sc-eCssSg bmGrxy"
+      >
+        <div
+          class="sc-gKsewC huEZcX"
+        />
+        <div
+          class="sc-iBPRYJ imjZgE"
+        >
+          <span
+            class="sc-fubCfw bUcFZH"
+          >
+            Grey Brim
+          </span>
+          <span
+            class="sc-pFZIQ cXvWcx"
+          >
+            $25
+          </span>
+        </div>
+        <button
+          class="sc-hKgILt hXUWBl sc-jSgupP cwSpKa"
+          data-test-id="add-cart-button"
+        >
+          ADD TO CART
+        </button>
+      </div>
+      <div
+        class="sc-eCssSg bmGrxy"
+      >
+        <div
+          class="sc-gKsewC jqrcol"
+        />
+        <div
+          class="sc-iBPRYJ imjZgE"
+        >
+          <span
+            class="sc-fubCfw bUcFZH"
+          >
+            Green Beanie
+          </span>
+          <span
+            class="sc-pFZIQ cXvWcx"
+          >
+            $18
+          </span>
+        </div>
+        <button
+          class="sc-hKgILt hXUWBl sc-jSgupP cwSpKa"
+          data-test-id="add-cart-button"
+        >
+          ADD TO CART
+        </button>
+      </div>
+      <div
+        class="sc-eCssSg bmGrxy"
+      >
+        <div
+          class="sc-gKsewC gvswDz"
+        />
+        <div
+          class="sc-iBPRYJ imjZgE"
+        >
+          <span
+            class="sc-fubCfw bUcFZH"
+          >
+            Palm Tree Cap
+          </span>
+          <span
+            class="sc-pFZIQ cXvWcx"
+          >
+            $14
+          </span>
+        </div>
+        <button
+          class="sc-hKgILt hXUWBl sc-jSgupP cwSpKa"
+          data-test-id="add-cart-button"
+        >
+          ADD TO CART
+        </button>
+      </div>
+      <div
+        class="sc-eCssSg bmGrxy"
+      >
+        <div
+          class="sc-gKsewC oOKWA"
+        />
+        <div
+          class="sc-iBPRYJ imjZgE"
+        >
+          <span
+            class="sc-fubCfw bUcFZH"
+          >
+            Red Beanie
+          </span>
+          <span
+            class="sc-pFZIQ cXvWcx"
+          >
+            $18
+          </span>
+        </div>
+        <button
+          class="sc-hKgILt hXUWBl sc-jSgupP cwSpKa"
+          data-test-id="add-cart-button"
+        >
+          ADD TO CART
+        </button>
+      </div>
+      <div
+        class="sc-eCssSg bmGrxy"
+      >
+        <div
+          class="sc-gKsewC bvjWUB"
+        />
+        <div
+          class="sc-iBPRYJ imjZgE"
+        >
+          <span
+            class="sc-fubCfw bUcFZH"
+          >
+            Wolf Cap
+          </span>
+          <span
+            class="sc-pFZIQ cXvWcx"
+          >
+            $14
+          </span>
+        </div>
+        <button
+          class="sc-hKgILt hXUWBl sc-jSgupP cwSpKa"
+          data-test-id="add-cart-button"
+        >
+          ADD TO CART
+        </button>
+      </div>
+      <div
+        class="sc-eCssSg bmGrxy"
+      >
+        <div
+          class="sc-gKsewC brUzlj"
+        />
+        <div
+          class="sc-iBPRYJ imjZgE"
+        >
+          <span
+            class="sc-fubCfw bUcFZH"
+          >
+            Blue Snapback
+          </span>
+          <span
+            class="sc-pFZIQ cXvWcx"
+          >
+            $16
+          </span>
+        </div>
+        <button
+          class="sc-hKgILt hXUWBl sc-jSgupP cwSpKa"
+          data-test-id="add-cart-button"
+        >
+          ADD TO CART
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

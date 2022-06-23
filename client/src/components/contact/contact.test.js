@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent } from '@testing-library/react';
-import ContactContainer from './contact.component';
+import Contact from './contact.component';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
 
@@ -15,7 +15,7 @@ const mockStore = configureStore();
 describe('Collection contact component', () => {
     it('should render contact details', async () => {
         const { asFragment, getByTestId, getByText } = render(<Provider store={mockStore(defaultStore)}>
-            <ContactContainer />
+            <Contact />
         </Provider>)
         expect(asFragment()).toMatchSnapshot();
         const displayNameInput = getByTestId('display-name');

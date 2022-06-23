@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage component should render HomePage 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gKsewC kniMkA"
+  >
+    <div
+      class="sc-jSgupP gFhuWt"
+    >
+      <div
+        class="sc-bdfBwQ cueKct"
+        data-test-id="shop-menu-item"
+      >
+        <div
+          class="sc-gsTCUz CKdSB background-image"
+        />
+        <div
+          class="sc-dlfnbm JasYd"
+        >
+          <span
+            class="sc-hKgILt eLkpOW"
+          >
+            HATS
+          </span>
+          <span
+            class="sc-eCssSg cAcTCL"
+          >
+            SHOP NOW
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

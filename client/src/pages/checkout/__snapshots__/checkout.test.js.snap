@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckoutPage component should render CheckoutPage 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdfBwQ bzFSRD"
+  >
+    <div
+      class="sc-gsTCUz dDjiPE"
+    >
+      <div
+        class="sc-dlfnbm yYZCH"
+      >
+        <span>
+          Product
+        </span>
+      </div>
+      <div
+        class="sc-dlfnbm yYZCH"
+      >
+        <span>
+          Description
+        </span>
+      </div>
+      <div
+        class="sc-dlfnbm yYZCH"
+      >
+        <span>
+          Quantity
+        </span>
+      </div>
+      <div
+        class="sc-dlfnbm yYZCH"
+      >
+        <span>
+          Price
+        </span>
+      </div>
+      <div
+        class="sc-dlfnbm yYZCH"
+      >
+        <span>
+          Remove
+        </span>
+      </div>
+    </div>
+    <div
+      class="sc-jSgupP mOwOe"
+    >
+      <div
+        class="sc-gKsewC bwJcDq"
+      >
+        <img
+          alt="item"
+          src="https://i.ibb.co/mJS6vz0/blue-jean-jacket.png"
+        />
+      </div>
+      <span
+        class="sc-iBPRYJ nOmpB"
+      >
+        Blue Jean Jacket
+      </span>
+      <span
+        class="sc-iBPRYJ sc-fubCfw nOmpB khmnNu"
+      >
+        <div
+          class="arrow"
+          data-test-id="remove-arrow"
+        >
+          ❮
+        </div>
+        <span
+          class="value"
+        >
+          1
+        </span>
+        <div
+          class="arrow"
+          data-test-id="add-arrow"
+        >
+          ❯
+        </div>
+      </span>
+      <span
+        class="sc-iBPRYJ nOmpB"
+      >
+        90
+      </span>
+      <div
+        class="sc-pFZIQ hGNbZr"
+        data-test-id="remove-button"
+      >
+        ✕
+      </div>
+    </div>
+    <div
+      class="sc-hKgILt LRBre"
+    >
+      <span>
+        TOTAL: $90
+      </span>
+    </div>
+    <button
+      class="StripeCheckout"
+      style="overflow: hidden; display: inline-block; border: 0px; padding: 1px; text-decoration: none; border-radius: 5px; box-shadow: 0 1px 0 rgba(0,0,0,0.2); cursor: pointer; visibility: visible; user-select: none;"
+    >
+      <span
+        style="font-family: \\"Helvetica Neue\\",Helvetica,Arial,sans-serif; font-size: 14px; position: relative; padding: 0px 12px; display: block; height: 30px; line-height: 30px; color: rgb(255, 255, 255); font-weight: bold; box-shadow: inset 0 1px 0 rgba(255,255,255,0.25); text-shadow: 0 -1px 0 rgba(0,0,0,0.25); border-radius: 4px;"
+      >
+        Pay Now
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;

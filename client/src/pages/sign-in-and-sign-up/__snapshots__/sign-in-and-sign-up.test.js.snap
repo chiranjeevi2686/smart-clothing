@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignInAndSignUpPage component should render SignInAndSignUpPage 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdfBwQ kfstfj"
+  >
+    <div
+      class="sc-gsTCUz iBTjxM"
+    >
+      <h2
+        class="sc-dlfnbm jVjGnt"
+      >
+        I already have an account
+      </h2>
+      <span>
+        Sign in with your email and password
+      </span>
+      <form>
+        <div
+          class="sc-eCssSg nbAhW"
+        >
+          <input
+            class="sc-jSgupP goyzCv"
+            data-test-id="email-input"
+            name="email"
+            required=""
+            type="email"
+            value=""
+          />
+          <label
+            class="sc-gKsewC iXWvFT"
+          >
+            email
+          </label>
+        </div>
+        <div
+          class="sc-eCssSg nbAhW"
+        >
+          <input
+            class="sc-jSgupP goyzCv"
+            data-test-id="password-input"
+            name="password"
+            required=""
+            type="password"
+            value=""
+          />
+          <label
+            class="sc-gKsewC iXWvFT"
+          >
+            password
+          </label>
+        </div>
+        <div
+          class="sc-hKgILt XLqev"
+        >
+          <button
+            class="sc-iBPRYJ fQmBJC"
+            data-test-id="sign-in-button"
+            type="submit"
+          >
+            Sign in
+          </button>
+          <button
+            class="sc-iBPRYJ befVFT"
+            data-test-id="sign-in-button-google"
+            type="button"
+          >
+            Sign in with google
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      class="sc-fubCfw eFBFPj"
+    >
+      <h2
+        class="sc-pFZIQ ekMfwe"
+      >
+        I do not have an account
+      </h2>
+      <span>
+        Sign up with email and password
+      </span>
+      <form>
+        <div
+          class="sc-eCssSg nbAhW"
+        >
+          <input
+            class="sc-jSgupP goyzCv"
+            data-test-id="display-name"
+            name="displayName"
+            required=""
+            type="text"
+            value=""
+          />
+          <label
+            class="sc-gKsewC iXWvFT"
+          >
+            Display Name
+          </label>
+        </div>
+        <div
+          class="sc-eCssSg nbAhW"
+        >
+          <input
+            class="sc-jSgupP goyzCv"
+            data-test-id="sign-up-email"
+            name="email"
+            required=""
+            type="email"
+            value=""
+          />
+          <label
+            class="sc-gKsewC iXWvFT"
+          >
+            Email
+          </label>
+        </div>
+        <div
+          class="sc-eCssSg nbAhW"
+        >
+          <input
+            class="sc-jSgupP goyzCv"
+            data-test-id="sign-up-pwd"
+            name="password"
+            required=""
+            type="password"
+            value=""
+          />
+          <label
+            class="sc-gKsewC iXWvFT"
+          >
+            Password
+          </label>
+        </div>
+        <div
+          class="sc-eCssSg nbAhW"
+        >
+          <input
+            class="sc-jSgupP goyzCv"
+            data-test-id="sign-up-cnf-pwd"
+            name="confirmPassword"
+            required=""
+            type="password"
+            value=""
+          />
+          <label
+            class="sc-gKsewC iXWvFT"
+          >
+            Confirm Password
+          </label>
+        </div>
+        <button
+          class="sc-iBPRYJ fQmBJC"
+          data-test-id="sign-up-btn"
+          type="submit"
+        >
+          SIGN UP
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;
